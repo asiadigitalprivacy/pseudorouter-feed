@@ -1,0 +1,5 @@
+config mode
+    option mode 'tor'
+
+config settings
+
