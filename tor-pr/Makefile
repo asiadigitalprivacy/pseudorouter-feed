@@ -52,7 +52,7 @@ endef
 define Package/tor-pr-geoip
 $(call Package/tor-pr/Default)
   TITLE:=GeoIP db for tor (PR)
-  DEPENDS:=+tor
+  DEPENDS:=+tor-pr
 endef
 
 define Package/tor-pr-geoip/description
